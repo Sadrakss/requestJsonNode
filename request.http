@@ -1,0 +1,25 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name":"Caneta cara",
+    "price":300
+}
+
+###
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/909d8abb-50e9-415f-a43e-d163c0c7aecf
+###
+PUT  http://localhost:4002/products/53087cd2-5abb-4570-96be-2ccc18b53695
+content-type: application/json
+
+{
+    "name":"relogio barata",
+    "price":1
+}
+
+###
+DELETE http://localhost:4002/products/fc322023-b11b-4f3c-8719-51a85496e7dd
+
