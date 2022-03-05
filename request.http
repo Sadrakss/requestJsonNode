@@ -2,8 +2,8 @@ POST http://localhost:4002/products
 content-type: application/json
 
 {
-    "name":"Caneta cara",
-    "price":300
+    "name":"Caneta preta",
+    "price":3
 }
 
 ###
@@ -21,5 +21,5 @@ content-type: application/json
 }
 
 ###
-DELETE http://localhost:4002/products/fc322023-b11b-4f3c-8719-51a85496e7dd
+DELETE http://localhost:4002/products/8efde75b-ab24-4524-bbf3-595324eed797
 
