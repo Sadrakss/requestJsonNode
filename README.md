@@ -3,8 +3,8 @@
 ##### Was created five requests:
 
  - Post -   Para inserir os produtos.
- - Get -    Para buscar os produtos.
- - Get -    Para inserir os produtos por ID.
+ - Get -    Para buscar todos os produtos.
+ - Get -    Para buscar os produtos por ID.
  - Put -    Para editar os produtos por ID.
  - Delete - Para Deletar os produtos, por ID.
  
